@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- release v4.4.3, copyright 2014 - 2017 Kartik Visweswaran -->
+<!--suppress JSUnresolvedLibraryURL -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Krajee JQuery Plugins - &copy; Kartik</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fileinput.css" media="all" rel="stylesheet" type="text/css"/>
+        <link href="../themes/explorer/theme.css" media="all" rel="stylesheet" type="text/css"/>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+        <script src="../js/plugins/sortable.js" type="text/javascript"></script>
+        <script src="../js/fileinput.js" type="text/javascript"></script>
+        <script src="../themes/explorer/theme.js" type="text/javascript"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="container kv-main">
+            <div class="page-header">
+                <h1>Bootstrap File Input Example
+                </h1>
+            </div>
+            <form enctype="multipart/form-data">
+                <input id="kv-explorer" type="file" multiple class="hidden">
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-default">Reset</button>
+            </form>
+            <hr>
+
+        </div>
+
+        <script type="text/javascript">
+
+            $("#kv-explorer").fileinput({
+                'theme': 'explorer',
+                language: 'pt-BR',
+                overwriteInitial: true,
+                initialPreviewAsData: true,
+                showUpload: false,
+                previewFileType: "any",
+                showRemove: false,
+                showCancel: false,
+                showBrowse: false,
+                showClose: false,
+                showDrag: false,
+                fileActionSettings: {
+                showDrag: false,        
+
+                },
+
+                initialPreview: [
+                    "http://lorempixel.com/1920/1080/nature/1",
+                    "http://lorempixel.com/1920/1080/nature/2",
+                    "http://lorempixel.com/1920/1080/nature/3",
+                            "http://kartik-v.github.io/bootstrap-fileinput-samples/samples/small.mp4",
+
+                ],
+                initialPreviewConfig: [
+                    {caption: "nature-1.jpg", size: 329892, width: "120px", url: "{$url}", key: 1},
+                    {caption: "nature-2.jpg", size: 872378, width: "120px", url: "{$url}", key: 2},
+                    {caption: "nature-3.jpg", size: 632762, width: "120px", url: "{$url}", key: 3},
+                    {type: "video", size: 375000, filetype: "", caption: "KrajeeSample.mp4", url: "/file-upload-batch/2", key: 4}
+
+                ]
+            });
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Solicitação de Nova Senha SongCommunityFactory</title>
+    </head>
+    <body style="margin: 0; padding: 0;">
+        <br />
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td>
+                    <!-- Header Top Start -->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+                        <tr>
+                            <td>
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
+                                    <tr>
+                                        <td align="left"  bgcolor="#F9F9F9">
+                                            <!-- Space -->
+                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                                                <tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- Header Top End -->
+
+                    <!-- Header Start -->
+                    <table bgcolor="#fafafa" align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
+                        <!-- Space -->
+                        <tbody><tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+                            <tr>
+                                <td width="100%" align="center" style="font-size: 28px; line-height: 34px; font-family:helvetica, Arial, sans-serif; color:#343434;">
+                                    <strong style="color:#339933">Song</strong><strong style="color:#999">Community</strong><strong style="color:#0099cc">Factory</strong>
+                                </td>
+                            </tr>
+                            <!-- Space -->
+                            <tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+                        </tbody></table>
+                    <!-- Header End -->
+
+
+                    <!-- Section Start -->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+                        <tr>
+                            <td>
+                                <table align="center" bgcolor="#24a828" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
+                                    <tr>
+                                        <td>
+                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                                                <!-- Border -->
+                                                <tr><td bgcolor="#24a828" style="font-size: 0; line-height: 0;" height="1">&nbsp;</td></tr>
+                                                <!-- Space -->
+                                                <tr><td style="font-size: 0; line-height: 0;" height="30">&nbsp;</td></tr>
+                                            </table>
+                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                                                <tr>
+                                                    <td>
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="350" style="border-collapse: collapse;">
+                                                            <!-- Space -->
+                                                            <tr><td style="font-size: 0; line-height: 0;" height="3">&nbsp;</td></tr>
+                                                            <tr>
+                                                                <td width="100%" align="center" style="font-size: 28px; line-height: 34px; font-family:helvetica, Arial, sans-serif; color:#ffffff;">
+                                                                    Sua senha é:
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="140" style="border-collapse: collapse;">
+                                                            <!-- Space -->
+                                                            <tr><td style="font-size: 0; line-height: 0;" height="0">&nbsp;</td></tr>
+                                                            <tr>
+                                                                <td width="100%" align="center" style="font-size: 28px; line-height: 34px; font-family:helvetica, Arial, sans-serif; color:#ffffff;">
+                                                                    ${password}
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                                                <!-- Space -->
+                                                <tr><td style="font-size: 0; line-height: 0;" height="30">&nbsp;</td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                    </table>
+                    <!-- Section End -->
+
+                    <!-- Subfooter Start -->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+                        <tr>
+                            <td>
+                                <table bgcolor="#f5f5f5" align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
+                                    <tr>
+                                        <td>
+                                            <!-- Space -->
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+                                                <tr><td style="font-size: 0; line-height: 0;" bgcolor="#eaeaea" height="1">&nbsp;</td></tr>
+                                                <tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+                                            </table>
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="540" style="border-collapse: collapse;">
+                                                <tr>
+                                                    <td align="center" style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">
+                                                        2017 SongCommunityFactory developed by <a href="http://www.Diego.me" style="color: #24a828; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;">Diego Colli</a>. All Rights Reserved
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- Space -->
+                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                                                <tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                    </table>
+                    <!-- Subfooter End -->
+
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

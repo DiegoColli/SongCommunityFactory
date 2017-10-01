@@ -1,0 +1,39 @@
+/* Theme Name: 
+
+
+Author e-mail:
+Version:1.2.0
+Created:December 2014
+License URI:http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+
+
+#user-friends-active, #user-friends-inactive {
+    border: 1px solid #eee;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    margin-right: 10px;
+    cursor: copy;
+}
+
+#user-friends-active li, #user-friends-inactive li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    cursor: move;
+}
+
+#user-friends-active li{
+    border: 1px solid #4cae4c;
+    background: #5cb85c;
+    color: #ffffff;
+}
+
+#user-friends-inactive li {
+    border: 1px solid #eea236;
+    background: #f0ad4e;
+    color: #ffffff;
+}

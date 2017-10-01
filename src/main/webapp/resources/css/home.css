@@ -1,0 +1,25 @@
+/* 
+    Created on : Aug 28, 2017, 5:59:24 PM
+    Author     : Diego
+*/
+
+
+.help-box-grey{
+    background: #EEE;
+    border: #EEE solid 1px;
+    border-radius:10px;
+    box-shadow: 0px 0px 0px 1px #fff inset;
+    margin-bottom: 1em;
+}
+
+.help-box-white{
+    background: #fff;
+    border: #EEE solid 1px;
+    border-radius:10px;
+    box-shadow: 0px 0px 0px 1px #fff inset;
+    margin-bottom: 1em;
+}
+
+#others-filter{
+    color: black;
+}

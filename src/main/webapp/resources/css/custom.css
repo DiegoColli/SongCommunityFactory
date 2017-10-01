@@ -1,0 +1,134 @@
+/* Theme Name: 
+Author e-mail:
+Version:1.2.0
+Created:December 2014
+License URI:http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+
+/*General*/
+
+.fa-question-circle{
+    cursor: help;
+}
+
+#form_logout{
+    margin: 0;
+}
+
+/*index and menu*/
+.navbar-default .navbar-nav > li > a {
+    padding: 13px 15px 27px 15px;
+}
+
+.dropdown > a:before {
+    top: 16px;
+}
+
+.btn-sm{
+    margin: 0;
+}
+
+.navbar-default .navbar-nav > li > a{
+    padding:20px 15px 27px 15px;
+}
+
+.background-img-6 {
+    background: url("../images/banner_musica.png") 50% 0px no-repeat;
+}
+
+/*custom accordion*/
+
+.collapse-style-2 .panel-heading .accordion-header-workspace{
+    background-color: #aaa;
+}
+
+.collapse-style-2 .panel-heading .accordion-header-users  {	
+    background-color: #5cb85c;
+    background-color: #aaa;
+}
+
+/*Find Colaborators Icons*/
+
+.btn.scf {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn.others {
+    background-color: #aaa;
+    border-color: #aaa;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn.help {
+    background-color: #09afdf;
+    border-color: #09afdf;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*input upload*/
+
+.kv-table button{
+    padding: 7px;
+    background-color: white !important;
+}
+
+.glyphicon-zoom-in{
+    color: #333;
+}
+
+.text-dark{
+    color: #333;
+}
+
+.input-group-btn .btn {
+    margin: 1px !important;
+}
+
+/*conversations*/
+
+.conversation-box-white{
+    background: #fff;
+    border: #EEE solid 1px;
+    border-radius:10px;
+    box-shadow: 0px 0px 0px 1px #fff inset;
+    margin-bottom: 1em;
+    color: green;
+}
+
+.conversation-box-green{
+    background: #bcdab0;
+    border: #bcdab0 solid 1px;
+    border-radius:10px;
+    box-shadow: 0px 0px 0px 1px #fff inset;
+    margin-bottom: 1em;
+}
+
+.conversation-me {
+    text-transform:capitalize; 
+    color: black
+}
+
+#collapse-workspace-principal .file-caption-main{
+    display: none;
+}
+
+.alert-default {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+.back-white-opac{
+    background-color: white; 
+    opacity: 0.6;
+}
+
+.font-black-not-opac{
+    color: black; 
+    opacity:1;
+}
